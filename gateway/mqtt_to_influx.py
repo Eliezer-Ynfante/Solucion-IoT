@@ -3,7 +3,7 @@ import json
 from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-# Configuración MQTT (Debe coincidir con el servidor de Wokwi)
+# Configuración MQTT 
 MQTT_BROKER = "broker.hivemq.com"
 MQTT_PORT = 1883
 MQTT_TOPIC = "aula/domotica/telemetria"
